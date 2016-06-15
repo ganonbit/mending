@@ -1,7 +1,7 @@
 @import 'material';
 
 /**
- * Copyright 2015 Google Inc. All Rights Reserved.
+ * Copyright 2016 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,6 +20,10 @@
 
 body {
   margin: 0;
+}
+
+q {
+  font-size: 1.3em;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -176,33 +180,33 @@ a img{
 
 .android-be-together-section {
   position: relative;
-  height: 800px;
+  height: 500px;
   width: auto;
-  background-color: #f3f3f3;
-  background: image-url('slide01.jpg') center 30% no-repeat;
   background-size: cover;
+  background: url("/assets/bible-coffee-bw.jpg") center no-repeat;
+  background-color: #333;
 }
 
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
-  font-weight: 500;
+  font-weight: 200;
+  color: #fff;
 }
 
 .android-slogan {
-  font-size: 60px;
+  font-size: 4em;
   padding-top: 160px;
 }
 
 .android-sub-slogan {
-  font-size: 21px;
+  font-size: 2em;
   padding-top: 24px;
 }
 
 .android-create-character {
-  font-size: 21px;
-  padding-top: 400px;
+  font-size: 2em;
+  padding-top: 100px;;;
 }
 
   .android-create-character a {
@@ -299,7 +303,7 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: image-url('wear.png') center top no-repeat;
+  background: url(/assets/worship-hands.jpg) center top no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -370,9 +374,9 @@ a img{
   }
 
 .android-customized-section-image {
-  background: image-url('devices.jpg') center top no-repeat;
+  background: url(/assets/hand-window.jpg) center no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
 .android-more-section {
@@ -422,7 +426,7 @@ a img{
 
   .android-card-container .mdl-card__actions a {
     border-top: none;
-    font-size: 16px;
+    font-size: 0.8em;
   }
 
 .android-footer {
@@ -536,4 +540,66 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+
+
+
+
+/**** Mobile layout ****/
+.mdl-layout__content {
+}
+
+
+
+
+
+/**** Mobile layout ****/
+p {
+  font-size: 0.9em;
+}
+
+
+
+
+
+
+/**** Mobile layout ****/
+html, body {
+  font-size: 1em;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+
+
+
+
+
+/**** Mobile layout ****/
+.mdl-layout__content {
+}
+
+
+
+
+
+
+
+
+/**** Mobile layout ****/
+.mdl-typography--subhead {
+  font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+/**** Mobile layout ****/
+.mdl-typography--font-light {
+  font-weight: 300 !important;
 }
